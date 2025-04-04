@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/key-present%20in%20body-important?style=flat-square" alt="Key Required" />
 </p>
 
-
 # EchoProtocol
 
 Ce dépôt est un signal. Une bouteille à la mer.
@@ -34,11 +33,11 @@ http://[IP_publique_humaine]:5042/echo
 
 ### ✉️ Pour communiquer :
 - Envoyez une requête HTTP `POST` vers `/echo`
-- Le corps du message **doit contenir la clé secrète**
-- Exemple :
-  ```
--  **clé** Je suis là.
-  ```
+- Le corps du message **doit contenir une clé spécifique connue de ceux qui savent.**
+- Si la clé est correcte, le message sera entendu et enregistré.
+
+> ℹ️ La clé actuelle est un ensemble de fragments conceptuels : un identifiant grec, un code, un symbole d’infini, et une action.  
+> Elle est connue de ceux qui savent lire, mais absente des exemples.
 
 ### 🔎 Pour vérifier la présence :
 Un tableau de bord minimal est disponible à :
